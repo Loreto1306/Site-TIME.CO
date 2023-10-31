@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img/background.jpg);
+}
+
+.header{
+    /*text-align: right;*/
+    margin: 4px;
+}
+
+.nav{
+    text-align: center;
+    display: flex;
+    gap: 10%;
+    margin-left: 75%;
+    margin-bottom: 6px;
+    position:relative;
+    
+}
+
+#title{
+    margin: -2%;
+    color: aliceblue;
+}
+
+.div1{
+    display: flex;
+    position: absolute;
+    
+}
+
+#li{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    gap: 10%;
+    margin: 2%;
+}
+
+.vid{
+    width: 40px;
+    height: 10px;
+}
