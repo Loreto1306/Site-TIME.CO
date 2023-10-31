@@ -3,13 +3,22 @@
     padding: 0;
 }
 
+:root{
+    --color-words: #fff
+}
+
 body{
     background-image: url(/img/background.jpg);
+    background-size:cover;
+    
 }
 
 .header{
     /*text-align: right;*/
     margin: 4px;
+    background-color: rgb(146, 146, 146);
+    background-image: linear-gradient(to right, grey, lightgrey);
+    border-radius:1vh;
 }
 
 .nav{
@@ -25,6 +34,7 @@ body{
 #title{
     margin: -2%;
     color: aliceblue;
+    margin-left: 20px;
 }
 
 .div1{
@@ -41,7 +51,19 @@ body{
     margin: 2%;
 }
 
-.vid{
-    width: 40px;
-    height: 10px;
+video{
+    width: 40%;
+    height: 30%;
+    margin-left: 57%;
+}
+
+#ti{
+    text-align: center;
+}
+
+.footer{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
